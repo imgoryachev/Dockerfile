@@ -1,4 +1,4 @@
-FROM tomcat:latest
+FROM tomcat:9.0.67-jdk17
 RUN apt update
 # RUN apt install default-jdk -y
 RUN apt install maven -y
